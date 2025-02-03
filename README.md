@@ -17,21 +17,22 @@ Note: UTM SE tends to not use JIT and other technical gimmicks in order to work 
 A macOS Installer ISO is necessary for this guide. You can download an installer .iso by clicking [here](https://archive.org/details/macos-collection).
 
 # Setting up
-You can download the template from the [Releases](https://www.nicksherlock.com/) page, or you can create your own if you'd like. For me, I would make a UTM VM like this:
+You can download the template of the VM from the [Releases](https://github.com/chartersamster/macOSVM-iOS/releases) page. Unzip the file and copy/paste it to a folder/path you'd like it to be in. Then open in UTM, head to settings > Import Drive > Select the Installer .iso you downloaded. Now click save, start the VM, and profit.
+Or you can create your own if you'd like. For me, I would make a UTM VM like this:
 
-### 1. Head to UTM or UTM SE and click the (+) symbol.
+1. Head to UTM or UTM SE and click the (+) symbol.
    
-### 2. (For UTM) Press the one with the turtle (Emulate). (For UTM SE) Just tap on New Machine.
+2. (For UTM) Press the one with the turtle (Emulate). (For UTM SE) Just tap on New Machine.
    
-### 3. Press Other and press Browse... for your ISO. Leave Legacy Hardware unchecked, unless otherwise.
+3. Press Other and press Browse... for your ISO. Leave Legacy Hardware unchecked, unless otherwise.
 
-### 4.  Set the RAM and CPU cores, I recommend 2048 MB as your RAM and 2 Cores as your CPU cores.
+4.  Set the RAM and CPU cores, I recommend 2048 MB as your RAM and 2 Cores as your CPU cores.
 
-### 5. Set the disk to 128 GB or so.
+5. Set the disk to 128 GB or so.
 
-### 6. Leave it as it is, no need to enable sharing as it is not supported.
+6. Leave it as it is, no need to enable sharing as it is not supported.
 
-### 7. Review your settings and if neccessary, rename "Virtual Machine" to the ones that best describes your VM, and press Save.
+7. Review your settings and if neccessary, rename "Virtual Machine" to the ones that best describes your VM, and press Save.
 
 ### 8. We're not done yet, head to the Settings icon. Then press Import Drive... and select the OpenCore disk (.qcow2) you downloaded from the [above source](https://github.com/Coopydood/ultimate-macOS-KVM/tree/main/resources/oc_store/compat_new) and the installer ISO you also downloaded. Now order OpenCore to the first set of the list so the BIOS can boot from the drive first.
 
