@@ -34,9 +34,9 @@ Or you can create your own if you'd like. For me, I would make a UTM VM like thi
 
 7. Review your settings and if neccessary, rename "Virtual Machine" to the ones that best describes your VM, and press Save.
 
-### 8. We're not done yet, head to the Settings icon. Then press Import Drive... and select the OpenCore disk (.qcow2) you downloaded from the [above source](https://github.com/Coopydood/ultimate-macOS-KVM/tree/main/resources/oc_store/compat_new) and the installer ISO you also downloaded. Now order OpenCore to the first set of the list so the BIOS can boot from the drive first.
+8. We're not done yet, head to the Settings icon. Then press Import Drive... and select the OpenCore disk (.qcow2) you downloaded from the [above source](https://github.com/Coopydood/ultimate-macOS-KVM/tree/main/resources/oc_store/compat_new) and the installer ISO you also downloaded. Now order OpenCore to the first set of the list so the BIOS can boot from the drive first.
 
-### 9. Head to QEMU settings and scroll down until you see "New...". Press on that field and input the following:
+9. Head to QEMU settings and scroll down until you see "New...". Press on that field and input the following:
 * -device isa-applesmc,osk=ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc (note: not putting this in will result in the VM failing to boot after installation!)
 
 * -cpu SandyBridge-IBRS,vendor=GenuineIntel,+vmx,vmware-cpuid-freq=on,+invtsc,+hypervisor,+avx,+ssse3,+sse4.2,hv-relaxed (note: Other CPUs won't work! They may put the VM in a kernel panic or they may fail the FIPSPOST test!)
