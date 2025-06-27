@@ -50,7 +50,7 @@ Or you can create your own if you'd like. For me, I would make a UTM VM like thi
 After you save and start the VM for the first time, just follow the steps as you normally would do when using OpenCore on real hardware.
 
 # Info regarding using UTM for this guide 
-If you want to use the UTM (not UTM SE) method you have to acknowledge that you must enable JIT every time you close the app. You can [refer to this site](https://jkcoxson.com/jitstreamer) for steps on how to enable JIT.
+If you want to use the UTM (not UTM SE) method you have to acknowledge that you must enable JIT every time you close the app. You can [refer to this site](https://jkcoxson.com/jitstreamer) (*deprecated, download StikDebug from the App Store, it's the easiest way) for steps on how to enable JIT. 
 
 If you have an iPhone X or older, you can jailbreak with palera1n and enable JIT without any problems.
 
