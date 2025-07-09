@@ -14,7 +14,10 @@ Install [UTM SE](https://apps.apple.com/us/app/utm-se-retro-pc-emulator/id156462
 
 Note: UTM SE tends to not use JIT and other technical gimmicks in order to work properly but it's much slower and more time-consuming than the normal UTM app. So it's recommended to use UTM and know how to enable JIT for a more faster experience.
 
-A macOS Installer ISO is necessary for this guide. You can download an installer .iso by clicking [here](https://archive.org/details/macos-collection).
+# Downloading a macOS Installer ISO
+Can't put a direct link here, Apple will be *peeved*.
+
+Google *macos collection*, and look for an *archive* 😏
 
 # Setting up
 You can download the template of the VM from the [Releases](https://github.com/chartersamster/macOSVM-iOS/releases) page. Unzip the file and copy/paste it to a folder/path you'd like it to be in. Then open in UTM, head to settings > Import Drive > Select the Installer .iso you downloaded. Now click save, start the VM, and profit.
