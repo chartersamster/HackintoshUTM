@@ -8,7 +8,10 @@ Currently macOS 10.14.1 Mojave is tested to work on an iPhone 13 mini under this
 
 
 # Requirements
-First you'll need an iPhone or iPad capable enough to run an Hackintosh VM without any problems (iPhone 11 Pro / iPad Pro, to be exact). Then you (obviously) need UTM / UTM SE to run the VM and install macOS on.
+First you'll need:
+ - an iPhone or iPad (should be 4 GB or larger); Apple Vision Pro
+ - UTM (with JIT) or UTM SE
+ - a copy of the template from the Releases tab
 
 Install [UTM SE](https://apps.apple.com/us/app/utm-se-retro-pc-emulator/id1564628856) from the App Store or [UTM](https://alt.getutm.app) from sideloading it via AltStore.
 
