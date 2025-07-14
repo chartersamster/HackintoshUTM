@@ -9,7 +9,7 @@ Currently macOS 10.14.1 Mojave is tested to work on an iPhone 13 mini under this
 
 # Requirements
 First you'll need:
- - an iPhone or iPad (should be 4 GB or larger); Apple Vision Pro
+ - an iPhone or iPad (should be 4 GB or larger); Apple Vision Pro could work
  - UTM (with JIT) or UTM SE
  - a copy of the template from the Releases tab
 
